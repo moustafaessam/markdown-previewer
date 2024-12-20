@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #87b5b5;
+}
+
+#editor-box {
+  width: 600px;
+  margin: 1.125rem auto;
+}
+.toolbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #4aa3a3;
+  padding: 7px;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: Russo One;
+}
+.toolbar .fa {
+  margin-left: auto;
+}
+textarea {
+  outline: none;
+  padding: 5px;
+}
+.box {
+  width: 100%;
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  border-top: none;
+}
+#editor {
+  min-height: 200px;
+  /* min-height: 95vh; */
+}
+#preview-box {
+  width: 800px;
+  margin: 0 auto;
+}
+#preview {
+  min-height: 150px;
+  padding: 20px;
+  line-height: 35px;
+  overflow: hidden;
+}
+.fa {
+  cursor: pointer;
+}
+.fa:hover {
+  color: #57e2b1;
+}
